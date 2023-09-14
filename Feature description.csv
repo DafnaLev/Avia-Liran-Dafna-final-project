@@ -1,0 +1,50 @@
+﻿Feature name,Feature type,Explanation
+transgenic_line,"Categorial (Sst+, Pvalb+, Htr3a+|Vip-, Vip+, Glutametric)",A transgenic mouse line refers to a group of mice that carry a specific foreign gene (transgene) that has been artificially introduced into their genome. 
+neurotransmitter,"Categorial (GABAergic, Glutamatergic)","A neurotransmitter is a chemical messenger that transmits signals between nerve cells (neurons) in the nervous system, allowing communication and coordination of various physiological and cognitive processes in the body. Here there are two types:
+GABA (Gamma-Aminobutyric Acid) is a major inhibitory neurotransmitter in the central nervous system
+Glutamate is the primary excitatory neurotransmitter in the central nervous system"
+reporter_status,"Categorial  (Yes,No)",Reporter is a type of genetic or molecular marker that is used to identify and study specific properties or activities of neurons. 
+dendrite_type,"Categorial  (Spiny,Aspiny)","Refers to the structural classification of dendrites.
+These spines are the sites of excitatory synapses while aspiny dendrites typically receive inhibitory synaptic inputs."
+layer,"Categorial  (L1, L2/L3, L4, L5, L6a, L6b)",Refers to the neuron origin layer in the cortex.
+threshold_v_noise,numeric,The voltage of the membrane potential during the start of action potential in mV for noise stimulus.
+threshold_i_noise,numeric,The level of injected current during the start of action potential for noise stimulus.
+peak_v_noise,numeric,"Maximum value of the membrane potential during the action potential (i.e., between the action potential’s threshold and the time of the following action potential or end of the response) for noise stimulus."
+peak_i_noise,numeric,"The value of the injected current at the action potential peak (i.e., when the membrane potential is maximal during the action potential) for noise stimulus."
+trough_v_noise,numeric,Minimum value of membrane potential in the interval between the peak and the time of the following action potential for noise stimulus
+trough_i_noise,numeric,"The value of the injected current at the trough (i.e., when the membrane potential is minimal during the interval between the peak and the time of the following action potential) for noise stimulus."
+upstroke_noise,numeric,The maximum value of dV/dt between the action potential threshold and the action potential peak  for noise stimulus.
+upstroke_v_noise,numeric,Value of the membrane potential at the start of the upstroke in mV  for noise stimulus.
+downstroke_noise,numeric,The minimum value of dV/dt between the action potential peak and the action potential trough  for noise stimulus.
+downstroke_v_noise,numeric,Value of the membrane potential at the start of the downstroke in mV  for noise stimulus.
+fast_trough_v_noise,numeric,Minimum value of the membrane potential in the interval lasting 5 ms after the peak  for noise stimulus.
+fast_trough_i_noise,numeric,"The value of the injected current at the trough (i.e., when the membrane potential is minimal during the interval lasting 5 ms after the peak)  for noise stimulus."
+width_noise,numeric,Width of the half height of the action potential in seconds  for noise stimulus. 
+upstroke_downstroke_ratio_noise,numeric,The ratio between the absolute values of the action potential peak upstroke and the action potential peak downstroke  for noise stimulus.
+f_i_curve_slope,numeric,"For all long square responses, the average firing rate and the stimulus amplitude were combined to estimate the cell's frequency response curve versus stimulus intensity (“f-I curve”). "
+fast_trough_v_long_square,numeric,Minimum value of the membrane potential in the interval lasting 5 ms after the peak for long square stimulus.
+fast_trough_v_ramp,numeric,Minimum value of the membrane potential in the interval lasting 5 ms after the peak for ramp stimulus.
+fast_trough_v_short_square,numeric,Minimum value of the membrane potential in the interval lasting 5 ms after the peak for short square stimulus.
+input_resistance_mohm,numeric,The input resistance of the cell
+latency,numeric,Time between the start of the stimulus until the time of the first spike evoked by a stimulus.
+peak_v_long_square,numeric,"Maximum value of the membrane potential during the action potential (i.e., between the action potential’s threshold and the time of the following action potential or end of the response)  for long square stimulus."
+peak_v_ramp,numeric,"Maximum value of the membrane potential during the action potential (i.e., between the action potential’s threshold and the time of the following action potential or end of the response)  for ramp stimulus."
+peak_v_short_square,numeric,"Maximum value of the membrane potential during the action potential (i.e., between the action potential’s threshold and the time of the following action potential or end of the response)  for short square stimulus."
+ri,numeric,Resistance Input measured in current clamp mode from a set of hyper-polarizing current steps.
+sag,numeric,The sag equals the return to a steady state divided by the peak deflection.
+seal_gohm,numeric,Adhesion of the membrane to the electrode (resistance in Gohm)
+tau,numeric,Time constant in the exponent equation that describes the increase in voltage (page 13 in the White paper)
+threshold_i_long_square,numeric,The level of injected current during the start of action potential for long square stimulus.
+threshold_i_ramp,numeric,The level of injected current during the start of action potential for ramp stimulus.
+threshold_i_short_square,numeric,The level of injected current during the start of action potential for short square stimulus.
+threshold_v_long_square,numeric,The voltage of the membrane potential during the start of action potential in mV for long square stimulus.
+threshold_v_ramp,numeric,The voltage of the membrane potential during the start of action potential in mV for ramp stimulus.
+threshold_v_short_square,numeric,The voltage of the membrane potential during the start of action potential in mV for short square stimulus.
+trough_v_long_square,numeric,Minimum value of membrane potential in the interval between the peak and the time of the following action potential for long square stimulus.
+trough_v_ramp,numeric,Minimum value of membrane potential in the interval between the peak and the time of the following action potential for ramp stimulus.
+trough_v_short_square,numeric,Minimum value of membrane potential in the interval between the peak and the time of the following action potential for short square stimulus.
+upstroke_downstroke_ratio_long_square,numeric,The ratio between the absolute values of the action potential peak upstroke and the action potential peak downstroke for long square stimulus.
+upstroke_downstroke_ratio_ramp,numeric,The ratio between the absolute values of the action potential peak upstroke and the action potential peak downstroke for ramp stimulus. 
+upstroke_downstroke_ratio_short_square,numeric,The ratio between the absolute values of the action potential peak upstroke and the action potential peak downstroke for short square stimulus.
+vm_for_sag,numeric,Membrane voltage to measure the SAG
+vrest,numeric,The membrane potential in rest in mV
